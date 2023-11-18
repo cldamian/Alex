@@ -1,0 +1,43 @@
+body {
+    background-image: linear-gradient(to bottom right, #33475b, #0033CC, #FF77CC, rgb(255, 122, 89));
+    
+}
+
+p {
+    font-size: 1.6rem;
+    text-align: center;
+}
+
+.texto {
+    text-align: center;
+    color: white;
+}
+
+#fin img  {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    max-width: var(--max);
+    height: 25rem;
+    object-fit: cover; 
+    border-radius: 10%;
+    
+}
+
+#fin img:hover {
+    transform: scale(1.5);
+    
+}
+
+
+#Button {
+    margin: 2%;
+    border-end-end-radius: 35%;
+    
+    
+}
+
+#Button:hover {
+    transition: initial;
+    
+}
